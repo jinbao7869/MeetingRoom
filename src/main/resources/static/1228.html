@@ -38,9 +38,9 @@
     btn.onclick = function(){
         $.ajax({
             // type: "GET",
-            // url: "http://39.106.15.220:8080/manager/listDevice",
+            // url: "http://localhost:8080/manager/listDevice",
             type: "POST",
-            url: "http://39.106.15.220:8080/manager/test",
+            url: "http://localhost:8080/manager/test",
             data:  `input=${inp.value}`,
             // dataType: "JSON",
             success: print
